@@ -1,0 +1,80 @@
+seo:
+  title: Virtualización VMware - IT Suru | it-suru.es
+  description: Consolidación de servidores y optimización de recursos con tecnologías VMware vSphere y vCenter en Barcelona.
+title: Virtualización [VMware]{.text-primary}
+description: Optimizamos tu infraestructura IT mediante virtualización avanzada, reduciendo costes operativos y mejorando la eficiencia de recursos.
+hero:
+  links:
+    - label: Assessment Gratuito
+      icon: i-lucide-server
+      trailing: true
+      color: primary
+      to: "#contacto"
+      size: xl
+    - label: Calculator ROI
+      icon: i-lucide-calculator
+      size: xl
+      color: neutral
+      variant: outline
+      to: "#roi"
+section:
+  title: '[Consolidación de servidores]{.text-primary} y optimización de recursos'
+  description: Transformamos tu centro de datos con tecnologías de virtualización enterprise que maximizan el ROI de tu infraestructura.
+  images:
+    mobile: '/images/macbook-mobile.svg'
+    desktop: '/images/macbook.svg'
+  features:
+    - title: Análisis de infraestructura física
+      description: Evaluamos tu entorno actual de servidores físicos para identificar oportunidades de consolidación.
+      class: border-l border-primary pl-4
+    - title: Diseño de arquitectura virtual
+      description: Creamos arquitecturas VMware vSphere optimizadas con alta disponibilidad y disaster recovery.
+      class: border-l border-default pt-4 pl-4
+    - title: Migración P2V transparente
+      description: Ejecutamos migraciones de físico a virtual con mínimo downtime y testing exhaustivo.
+      class: border-l border-default pt-4 pl-4
+features:
+  title: Soluciones enterprise de [virtualización]{.text-primary}
+  description: Stack completo VMware con gestión centralizada y optimización continua de recursos computacionales.
+  features:
+    - title: VMware vSphere
+      description: Plataforma de virtualización líder con ESXi hypervisor, vCenter Server y gestión centralizada de recursos.
+      icon: i-lucide-server
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: vSAN Storage
+      description: Almacenamiento software-defined con replicación, deduplicación y compresión automática de datos.
+      icon: i-lucide-hard-drive
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: NSX Network Virtualization
+      description: Redes virtuales con micro-segmentación, balanceado de carga distribuido y firewall interno.
+      icon: i-lucide-network
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: vRealize Automation
+      description: Automatización de despliegues con self-service portal y orquestación de workflows complejos.
+      icon: i-lucide-zap
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Site Recovery Manager
+      description: Disaster recovery automatizado con replicación entre sitios y testing de continuidad de negocio.
+      icon: i-lucide-shield
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: vROps Monitoring
+      description: Monitorización predictiva con analytics avanzados y optimización automática de performance.
+      icon: i-lucide-trending-up
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+cta:
+  title: ¿Listo para consolidar tu infraestructura de servidores?
+  description: Descubre cuánto puedes ahorrar con virtualización VMware y mejora la eficiencia de tu datacenter.
+  links:
+    - label: Assessment Gratuito
+      to: '#contacto'
+      trailingIcon: i-lucide-arrow-right
+    - label: Calculadora de ROI
+      to: '#'
+      variant: subtle
+      icon: i-lucide-calculator

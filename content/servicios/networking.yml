@@ -1,0 +1,80 @@
+seo:
+  title: Networking Empresarial - IT Suru | it-suru.es
+  description: Diseño e implementación de redes corporativas de alto rendimiento con redundancia y balanceado de carga en Barcelona.
+title: Networking [Empresarial]{.text-primary}
+description: Diseñamos e implementamos infraestructuras de red robustas y escalables que garantizan conectividad óptima y alta disponibilidad para tu negocio.
+hero:
+  links:
+    - label: Consulta Gratuita
+      icon: i-lucide-phone
+      trailing: true
+      color: primary
+      to: "#contacto"
+      size: xl
+    - label: Ver Casos de Éxito
+      icon: i-lucide-eye
+      size: xl
+      color: neutral
+      variant: outline
+      to: "#casos-exito"
+section:
+  title: '[Infraestructuras de red]{.text-primary} de nivel empresarial'
+  description: Creamos redes corporativas que soportan el crecimiento de tu empresa con tecnologías de vanguardia y mejores prácticas del sector.
+  images:
+    mobile: '/images/macbook-mobile.svg'
+    desktop: '/images/macbook.svg'
+  features:
+    - title: Análisis de requisitos de red
+      description: Evaluamos las necesidades específicas de conectividad de tu organización para diseñar la arquitectura de red óptima.
+      class: border-l border-primary pl-4
+    - title: Diseño de topología avanzada
+      description: Creamos arquitecturas de red escalables con redundancia, segmentación VLAN y balanceado de carga automático.
+      class: border-l border-default pt-4 pl-4
+    - title: Implementación y configuración
+      description: Desplegamos la infraestructura de red con configuración optimizada y testing exhaustivo de rendimiento.
+      class: border-l border-default pt-4 pl-4
+features:
+  title: Servicios especializados en [networking]{.text-primary}
+  description: Cubrimos todos los aspectos de tu infraestructura de red con tecnologías enterprise y soporte especializado.
+  features:
+    - title: Switches Managed L2/L3
+      description: Configuración de switches empresariales con VLAN, STP, LACP y QoS para segmentación y priorización del tráfico.
+      icon: i-lucide-shuffle
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Enrutamiento Dinámico
+      description: Implementación de protocolos OSPF, BGP y EIGRP para enrutamiento eficiente y redundancia automática.
+      icon: i-lucide-route
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: WiFi Empresarial
+      description: Redes inalámbricas con controladores centralizados, autenticación 802.1X y cobertura optimizada.
+      icon: i-lucide-wifi
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: WAN y SD-WAN
+      description: Conectividad entre sedes con tecnologías MPLS, VPN site-to-site y soluciones SD-WAN de nueva generación.
+      icon: i-lucide-globe
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Balanceado de Carga
+      description: Distribución inteligente del tráfico con load balancers F5, Citrix ADC y soluciones open source.
+      icon: i-lucide-scale
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Monitorización de Red
+      description: Supervisión proactiva con herramientas como SolarWinds, PRTG y Nagios para visibilidad completa del tráfico.
+      icon: i-lucide-monitor
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+cta:
+  title: ¿Necesitas optimizar tu infraestructura de red?
+  description: Nuestros expertos en networking están listos para analizar tus necesidades y diseñar la solución perfecta.
+  links:
+    - label: Consulta Gratuita
+      to: '#contacto'
+      trailingIcon: i-lucide-arrow-right
+    - label: Descargar Caso de Estudio
+      to: '#'
+      variant: subtle
+      icon: i-lucide-download

@@ -1,0 +1,80 @@
+seo:
+  title: Cloud Computing - IT Suru | it-suru.es
+  description: Migración y gestión de servicios en AWS, Azure y Google Cloud con arquitecturas híbridas y multi-cloud en Barcelona.
+title: Cloud [Computing]{.text-primary}
+description: Aceleramos tu transformación digital con migraciones cloud estratégicas y arquitecturas híbridas que optimizan costes y escalabilidad.
+hero:
+  links:
+    - label: Cloud Assessment
+      icon: i-lucide-cloud
+      trailing: true
+      color: primary
+      to: "#contacto"
+      size: xl
+    - label: Calculadora TCO
+      icon: i-lucide-calculator
+      size: xl
+      color: neutral
+      variant: outline
+      to: "#tco"
+section:
+  title: '[Transformación cloud]{.text-primary} estratégica y escalable'
+  description: Migramos tus workloads críticos a la nube con estrategias cloud-native que maximizan agilidad empresarial y reducen costes operativos.
+  images:
+    mobile: '/images/macbook-mobile.svg'
+    desktop: '/images/macbook.svg'
+  features:
+    - title: Cloud readiness assessment
+      description: Evaluamos tus aplicaciones y workloads para determinar la estrategia de migración óptima a cloud.
+      class: border-l border-primary pl-4
+    - title: Arquitectura cloud-native
+      description: Diseñamos soluciones escalables con microservicios, containers y servicios managed de proveedores cloud.
+      class: border-l border-default pt-4 pl-4
+    - title: Migración y optimización
+      description: Ejecutamos migraciones con metodologías probadas y optimización continua de costes y rendimiento.
+      class: border-l border-default pt-4 pl-4
+features:
+  title: Servicios especializados en [cloud computing]{.text-primary}
+  description: Expertise certificado en los principales proveedores cloud con arquitecturas híbridas y multi-cloud avanzadas.
+  features:
+    - title: Amazon Web Services
+      description: EC2, RDS, Lambda, EKS y servicios serverless con arquitecturas Well-Architected y FinOps optimization.
+      icon: i-simple-icons-amazonaws
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Microsoft Azure
+      description: Virtual Machines, Azure SQL, AKS y Azure Functions con integración nativa de servicios Microsoft.
+      icon: i-simple-icons-microsoftazure
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Google Cloud Platform
+      description: Compute Engine, BigQuery, GKE y AI/ML services con analytics avanzados y machine learning.
+      icon: i-simple-icons-googlecloud
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Arquitecturas Híbridas
+      description: Conectividad híbrida con VPN, Direct Connect y Azure ExpressRoute para workloads sensibles.
+      icon: i-lucide-git-merge
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Kubernetes Orquestación
+      description: Despliegues containerizados con EKS, AKS, GKE y gestión avanzada de microservicios cloud-native.
+      icon: i-simple-icons-kubernetes
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: DevOps y CI/CD
+      description: Pipelines automatizados con Jenkins, GitLab CI, Azure DevOps y prácticas Infrastructure as Code.
+      icon: i-lucide-git-branch
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+cta:
+  title: ¿Listo para acelerar tu transformación cloud?
+  description: Analiza tu infraestructura actual y descubre el potencial de ahorro y escalabilidad que ofrece la nube.
+  links:
+    - label: Cloud Assessment
+      to: '#contacto'
+      trailingIcon: i-lucide-arrow-right
+    - label: Whitepaper Cloud Strategy
+      to: '#'
+      variant: subtle
+      icon: i-lucide-download

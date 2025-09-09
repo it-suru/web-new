@@ -1,0 +1,80 @@
+seo:
+  title: Seguridad Perimetral - IT Suru | it-suru.es
+  description: Protección avanzada con firewalls de próxima generación, IDS/IPS y sistemas de detección de amenazas en Barcelona.
+title: Seguridad [Perimetral]{.text-primary}
+description: Protegemos tu infraestructura IT con sistemas de seguridad avanzados y estrategias de defensa multicapa contra amenazas cibernéticas.
+hero:
+  links:
+    - label: Auditoría de Seguridad
+      icon: i-lucide-shield-check
+      trailing: true
+      color: primary
+      to: "#contacto"
+      size: xl
+    - label: Ver Threat Intelligence
+      icon: i-lucide-alert-triangle
+      size: xl
+      color: neutral
+      variant: outline
+      to: "#amenazas"
+section:
+  title: '[Protección perimetral]{.text-primary} de clase enterprise'
+  description: Implementamos arquitecturas de seguridad robustas que defienden tu organización contra amenazas avanzadas y ataques dirigidos.
+  images:
+    mobile: '/images/macbook-mobile.svg'
+    desktop: '/images/macbook.svg'
+  features:
+    - title: Análisis de riesgos y vulnerabilidades
+      description: Evaluamos tu superficie de ataque actual y identificamos vulnerabilidades críticas en tu infraestructura.
+      class: border-l border-primary pl-4
+    - title: Arquitectura de seguridad multicapa
+      description: Diseñamos defensas en profundidad con multiple puntos de control y detección de amenazas.
+      class: border-l border-default pt-4 pl-4
+    - title: Implementación de controles avanzados
+      description: Desplegamos firewalls NGFW, IDS/IPS y sistemas de prevención de intrusiones de última generación.
+      class: border-l border-default pt-4 pl-4
+features:
+  title: Soluciones avanzadas de [seguridad perimetral]{.text-primary}
+  description: Protección integral con tecnologías líders del mercado y expertise especializado en ciberseguridad.
+  features:
+    - title: Firewalls Next-Generation
+      description: Fortinet FortiGate, Palo Alto Networks y Cisco ASA con inspección profunda de paquetes y control de aplicaciones.
+      icon: i-lucide-shield
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Sistemas IDS/IPS
+      description: Detección y prevención de intrusiones con Snort, Suricata y soluciones comerciales de alta performance.
+      icon: i-lucide-eye
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: VPN Empresarial
+      description: Acceso remoto seguro con IPSec, SSL VPN y autenticación multifactor para trabajadores móviles.
+      icon: i-lucide-key
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Web Application Firewall
+      description: Protección de aplicaciones web con ModSecurity, F5 ASM y Cloudflare WAF contra ataques OWASP.
+      icon: i-lucide-globe
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: SIEM y SOC
+      description: Correlación de eventos de seguridad con Splunk, QRadar y servicios de Security Operations Center.
+      icon: i-lucide-activity
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Threat Intelligence
+      description: Inteligencia de amenazas proactiva con feeds actualizados y análisis de indicadores de compromiso.
+      icon: i-lucide-brain
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+cta:
+  title: ¿Tu organización está protegida contra amenazas avanzadas?
+  description: Realiza una auditoría de seguridad gratuita y descubre cómo fortalecer tu perímetro de defensa.
+  links:
+    - label: Auditoría Gratuita
+      to: '#contacto'
+      trailingIcon: i-lucide-arrow-right
+    - label: Descargar Security Assessment
+      to: '#'
+      variant: subtle
+      icon: i-lucide-download

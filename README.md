@@ -1,62 +1,74 @@
-# Nuxt Landing Template
+# IT Suru - Consultoría IT Especializada
 
 [![Nuxt UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
 
-Use this template to build your own landing page with [Nuxt UI](https://ui.nuxt.com) quickly.
+Sitio web corporativo de IT Suru, empresa de consultoría IT especializada en soluciones tecnológicas empresariales.
 
-- [Live demo](https://landing-template.nuxt.dev/)
-- [Documentation](https://ui4.nuxt.com/docs/getting-started/installation/nuxt)
+## Servicios Especializados
 
-<a href="https://landing-template.nuxt.dev/" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ui4.nuxt.com/assets/templates/nuxt/landing-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://ui4.nuxt.com/assets/templates/nuxt/landing-light.png">
-    <img alt="Nuxt Landing Template" src="https://ui4.nuxt.com/assets/templates/nuxt/landing-light.png">
-  </picture>
-</a>
+- **Networking Empresarial**: Diseño e implementación de redes corporativas de alto rendimiento
+- **Seguridad Perimetral**: Protección avanzada con firewalls NGFW, IDS/IPS y detección de amenazas
+- **Virtualización VMware**: Consolidación de servidores y optimización de recursos con vSphere
+- **Infraestructura On-Premise**: Servidores físicos, almacenamiento SAN/NAS y sistemas de backup
+- **Cloud Computing**: Migración y gestión de servicios en AWS, Azure y Google Cloud
 
-## Quick Start
+## Tecnologías Utilizadas
 
-```bash [Terminal]
-npx nuxi init -t github:nuxt-ui-templates/landing
-```
+- **Frontend**: Nuxt.js 4, Vue 3, TypeScript
+- **UI Framework**: Nuxt UI con Tailwind CSS
+- **Content Management**: Nuxt Content
+- **Deployment**: GitHub Pages con GitHub Actions
 
-## Deploy your own
+## Setup del Proyecto
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnuxt-ui-templates%2Flanding)
-
-## Setup
-
-Make sure to install the dependencies:
+Instalar las dependencias:
 
 ```bash
 pnpm install
 ```
 
-## Development Server
+## Servidor de Desarrollo
 
-Start the development server on `http://localhost:3000`:
+Iniciar el servidor de desarrollo en `http://localhost:3000`:
 
 ```bash
 pnpm dev
 ```
 
-## Production
+## Construcción para Producción
 
-Build the application for production:
+Construir la aplicación para producción:
 
 ```bash
 pnpm build
 ```
 
-Locally preview production build:
+Generar sitio estático:
+
+```bash
+pnpm generate
+```
+
+Previsualizar la construcción de producción localmente:
 
 ```bash
 pnpm preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Deployment
 
-## Renovate integration
+El sitio se despliega automáticamente en GitHub Pages mediante GitHub Actions cuando se hace push a la rama `main`.
 
-Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.
+## Estructura de Contenido
+
+- `content/index.yml` - Página principal con información de la empresa
+- `content/servicios/` - Páginas detalladas de cada servicio especializado
+- `app/components/` - Componentes Vue reutilizables
+- `app/pages/` - Páginas de la aplicación
+
+## Contacto
+
+- **Web**: https://it-suru.es
+- **Email**: info@it-suru.es
+- **Teléfono**: +34 657 99 20 52
+- **Dirección**: C/ Sant Manuel, 5, Barcelona, 08031

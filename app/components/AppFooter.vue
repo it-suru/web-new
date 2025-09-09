@@ -1,36 +1,38 @@
 <script setup lang="ts">
 const columns = [{
-  label: 'Resources',
+  label: 'Servicios',
   children: [{
-    label: 'Help center'
+    label: 'Networking'
   }, {
-    label: 'Docs'
+    label: 'Seguridad Perimetral'
   }, {
-    label: 'Roadmap'
+    label: 'Virtualización'
   }, {
-    label: 'Changelog'
+    label: 'Infraestructura'
+  }, {
+    label: 'Cloud Computing'
   }]
 }, {
-  label: 'Features',
+  label: 'Empresa',
   children: [{
-    label: 'Affiliates'
+    label: 'Sobre Nosotros'
   }, {
-    label: 'Portal'
+    label: 'Consultoría'
   }, {
-    label: 'Jobs'
+    label: 'Casos de Éxito'
   }, {
-    label: 'Sponsors'
+    label: 'Blog Técnico'
   }]
 }, {
-  label: 'Company',
+  label: 'Contacto',
   children: [{
-    label: 'About'
+    label: 'Teléfono: +34 657 99 20 52'
   }, {
-    label: 'Pricing'
+    label: 'Email: info@it-suru.es'
   }, {
-    label: 'Careers'
+    label: 'C/ Sant Manuel, 5'
   }, {
-    label: 'Blog'
+    label: 'Barcelona, 08031'
   }]
 }]
 
@@ -63,20 +65,20 @@ function onSubmit() {
             <form @submit.prevent="onSubmit">
               <UFormField
                 name="email"
-                label="Subscribe to our newsletter"
+                label="Suscríbete a nuestro boletín"
                 size="lg"
               >
                 <UInput
                   v-model="email"
                   type="email"
                   class="w-full"
-                  placeholder="Enter your email"
+                  placeholder="Introduce tu email"
                 >
                   <template #trailing>
                     <UButton
                       type="submit"
                       size="xs"
-                      label="Subscribe"
+                      label="Suscribir"
                     />
                   </template>
                 </UInput>
@@ -89,32 +91,31 @@ function onSubmit() {
 
     <template #left>
       <p class="text-sm text-muted">
-        Built with Nuxt UI • © {{ new Date().getFullYear() }}
+        IT Suru - Consultoría IT Especializada • © {{ new Date().getFullYear() }}
       </p>
     </template>
 
     <template #right>
       <UButton
-        to="https://go.nuxt.com/discord"
+        to="https://www.linkedin.com/company/itsuru"
         target="_blank"
-        icon="i-simple-icons-discord"
-        aria-label="Nuxt on Discord"
+        icon="i-simple-icons-linkedin"
+        aria-label="IT Suru en LinkedIn"
         color="neutral"
         variant="ghost"
       />
       <UButton
-        to="https://go.nuxt.com/x"
+        to="https://twitter.com/itsuru"
         target="_blank"
         icon="i-simple-icons-x"
-        aria-label="Nuxt on X"
+        aria-label="IT Suru en X"
         color="neutral"
         variant="ghost"
       />
       <UButton
-        to="https://github.com/nuxt-ui-templates/landing"
-        target="_blank"
-        icon="i-simple-icons-github"
-        aria-label="Nuxt UI on GitHub"
+        to="mailto:info@it-suru.es"
+        icon="i-lucide-mail"
+        aria-label="Contactar IT Suru"
         color="neutral"
         variant="ghost"
       />

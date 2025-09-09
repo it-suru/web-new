@@ -3,15 +3,15 @@ const nuxtApp = useNuxtApp()
 const { activeHeadings, updateHeadings } = useScrollspy()
 
 const items = computed(() => [{
-  label: 'Features',
+  label: 'Servicios',
   to: '#features',
   active: activeHeadings.value.includes('features') && !activeHeadings.value.includes('pricing')
 }, {
-  label: 'Pricing',
+  label: 'Consultoría',
   to: '#pricing',
   active: activeHeadings.value.includes('pricing')
 }, {
-  label: 'Testimonials',
+  label: 'Testimonios',
   to: '#testimonials',
   active: activeHeadings.value.includes('testimonials') && !activeHeadings.value.includes('pricing')
 }])
@@ -31,8 +31,6 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
       <NuxtLink to="/">
         <AppLogo class="w-auto h-6 shrink-0" />
       </NuxtLink>
-
-      <TemplateMenu />
     </template>
 
     <template #right>
@@ -43,9 +41,10 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
       />
 
       <UButton
-        label="Download App"
+        label="Consulta Gratuita"
         variant="subtle"
         class="hidden lg:block"
+        to="#contacto"
       />
 
       <UColorModeButton />
@@ -59,9 +58,10 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
       />
       <UButton
         class="mt-4"
-        label="Download App"
+        label="Consulta Gratuita"
         variant="subtle"
         block
+        to="#contacto"
       />
     </template>
   </UHeader>

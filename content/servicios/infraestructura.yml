@@ -1,0 +1,80 @@
+seo:
+  title: Infraestructura On-Premise - IT Suru | it-suru.es
+  description: Servidores físicos, almacenamiento SAN/NAS y sistemas de backup empresariales de alta disponibilidad en Barcelona.
+title: Infraestructura [On-Premise]{.text-primary}
+description: Diseñamos e implementamos infraestructuras físicas robustas con servidores enterprise, almacenamiento de alto rendimiento y sistemas de backup críticos.
+hero:
+  links:
+    - label: Consultoría Infraestructura
+      icon: i-lucide-building-2
+      trailing: true
+      color: primary
+      to: "#contacto"
+      size: xl
+    - label: Ver Arquitecturas
+      icon: i-lucide-layout
+      size: xl
+      color: neutral
+      variant: outline
+      to: "#arquitecturas"
+section:
+  title: '[Centros de datos]{.text-primary} de nivel empresarial'
+  description: Construimos infraestructuras físicas que garantizan máxima disponibilidad, rendimiento y escalabilidad para aplicaciones críticas de negocio.
+  images:
+    mobile: '/images/macbook-mobile.svg'
+    desktop: '/images/macbook.svg'
+  features:
+    - title: Dimensionamiento y sizing
+      description: Analizamos requisitos de carga de trabajo para dimensionar correctamente CPU, memoria y almacenamiento.
+      class: border-l border-primary pl-4
+    - title: Arquitectura de alta disponibilidad
+      description: Diseñamos sistemas redundantes sin puntos únicos de fallo con clustering y failover automático.
+      class: border-l border-default pt-4 pl-4
+    - title: Implementación y configuración
+      description: Desplegamos infraestructura física con configuración optimizada y testing de rendimiento exhaustivo.
+      class: border-l border-default pt-4 pl-4
+features:
+  title: Soluciones completas de [infraestructura física]{.text-primary}
+  description: Stack completo de tecnologías enterprise con soporte 24/7 y mantenimiento proactivo especializado.
+  features:
+    - title: Servidores Enterprise
+      description: Dell PowerEdge, HPE ProLiant y Cisco UCS con procesadores Intel/AMD de última generación y memoria ECC.
+      icon: i-lucide-server
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Almacenamiento SAN/NAS
+      description: EMC Unity, NetApp FAS y sistemas Fibre Channel con replicación síncrona y snapshots automatizados.
+      icon: i-lucide-database
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Sistemas de Backup
+      description: Veeam Backup & Replication, CommVault y Veritas NetBackup con deduplicación y compresión avanzada.
+      icon: i-lucide-archive
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Clustering y HA
+      description: Microsoft Failover Cluster, VMware HA/DRS y Oracle RAC para máxima disponibilidad de servicios críticos.
+      icon: i-lucide-layers
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: UPS y Alimentación
+      description: Sistemas de alimentación ininterrumpida APC, Eaton con monitorización remota y generadores de respaldo.
+      icon: i-lucide-zap
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Climatización Datacenter
+      description: Sistemas de refrigeración precisos con monitorización ambiental y alertas de temperatura/humedad.
+      icon: i-lucide-thermometer
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+cta:
+  title: ¿Necesitas modernizar tu centro de datos?
+  description: Evalúa tu infraestructura actual y descubre cómo optimizar rendimiento, disponibilidad y eficiencia energética.
+  links:
+    - label: Assessment Infraestructura
+      to: '#contacto'
+      trailingIcon: i-lucide-arrow-right
+    - label: Guía de Modernización
+      to: '#'
+      variant: subtle
+      icon: i-lucide-download
